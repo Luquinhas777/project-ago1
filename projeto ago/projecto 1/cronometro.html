@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contador de tempo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de tempo</h1>
+        <form id="countdown-form" method="post" action="">
+            <label for="end-date">Data do término:</label>
+            <input type="datetime-local" id="end-date" name="end_date" required>
+            <br>
+            <input type="submit" value="Start Countdown">
+        </form>
+
+        <div id="countdown-timer">
+            <h2>Tempo restante:</h2>
+            <div id="countdown"></div>
+        </div>
+    </div>
